@@ -1,5 +1,4 @@
 function countBy(x, n) {
-
     let z = [];
     let c = x;
     for (let i=0; i<n; i++) {
@@ -8,5 +7,4 @@ function countBy(x, n) {
     }
     return z;
 }
-
 console.log(countBy(2,5))
