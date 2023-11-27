@@ -1,10 +1,10 @@
 function sumMul(n, m) {
     if (n>=m) {return "INVALID"}
     let resault = 0
-    for (i=0; i<Math.floor(m/n); i++){
-        resault = resault + n*(i+1)
+    for (i=n; i<m; i+=n){
+        resault = resault + i
     }
     return resault
 }
 
-console.log(sumMul(4,123))
+console.log(sumMul(49,5537))
