@@ -35,9 +35,10 @@ function lookUpProfile(name, prop) {
                     return (contacts[i][prop])
                 }
             }
+            return "No such property"
         }
     }
-
+    return "No such contact"
     // Only change code above this line
 }
 
